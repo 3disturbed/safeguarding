@@ -104,7 +104,14 @@ The website serves as an educational tool aimed at:
 
 - Single-page layout showcasing the homepage with section scroll interactions for:
   - British Values
+    
+ ![image](https://github.com/user-attachments/assets/cd2d5833-99b4-4f88-876a-31267c741014)
+ ![image](https://github.com/user-attachments/assets/6ec51438-9b60-460f-a67b-d9a9d5532552)
+ ![image](https://github.com/user-attachments/assets/a3772bbd-c4e8-418d-871a-7a2d3668d281)
+
   - Safeguarding
+
+
   - Prevent Duty
   - Reporting Concerns
   - Additional Resources
