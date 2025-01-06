@@ -29,7 +29,10 @@ accordionButtons.forEach(accBtn => {
   accBtn.addEventListener('click', () => {
     // Toggle the panel
     const content = accBtn.nextElementSibling;
-    content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+    const isExpanded = accBtn.getAttribute('aria-expanded') === 'true';
+    
+    accBtn.setAttribute('aria-expanded', !isExpanded);
+    content.style.display = isExpanded ? 'none' : 'block';
   });
 });
 

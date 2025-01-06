@@ -19,33 +19,18 @@
     <h1 class="hero-title">British Values, Safeguarding & Prevent</h1>
     <p class="hero-subtitle">Creating a safe and inclusive environment for everyone</p>
     <!-- Burger Menu Icon -->
-    <img src="images/burger.png" alt="Toggle navigation menu" class="burger" aria-label="Toggle navigation menu" role="button" tabindex="0" />
+    <img src="images/burger.webp" alt="Toggle navigation menu" class="burger" aria-label="Toggle navigation menu" role="button" tabindex="0" />
   </header>
 
   <!-- TABBED NAVIGATION -->
   <nav class="tab-nav">
-    <button class="tab-button active tooltip" data-tab-target="#intro" data-tooltip="Introduction Section" aria-label="Introduction">Introduction</button>
     <button class="tab-button tooltip" data-tab-target="#british-values" data-tooltip="British Values Section" aria-label="British Values">British Values</button>
     <button class="tab-button tooltip" data-tab-target="#safeguarding" data-tooltip="Safeguarding Section" aria-label="Safeguarding">Safeguarding</button>
     <button class="tab-button tooltip" data-tab-target="#prevent-duty" data-tooltip="Prevent Duty Section" aria-label="Prevent Duty">Prevent Duty</button>
-    <button class="tab-button tooltip" data-tab-target="#reporting" data-tooltip="Reporting Concerns Section" aria-label="Reporting Concerns">Reporting Concerns</button>
   </nav>
 
   <!-- MAIN CONTENT SECTIONS -->
   <main>
-    <!-- INTRODUCTION -->
-    <section class="tab-content active" id="intro">
-      <div class="tab-content-inner">
-        <img src="/images/icon-intro.png" alt="Introduction Icon" class="section-icon" />
-        <h2>1. Introduction</h2>
-        <p>
-          British Values, Safeguarding, and the Prevent duty are essential in all educational 
-          and childcare settings. They ensure that everyone is treated with respect, protected 
-          from harm, and made aware of the risks and responsibilities in our community.
-        </p>
-      </div>
-    </section>
-
     <!-- BRITISH VALUES -->
     <section class="tab-content" id="british-values">
       <div class="tab-content-inner">
@@ -178,19 +163,6 @@
       </div>
     </section>
 
-    <!-- REPORTING CONCERNS -->
-    <section class="tab-content" id="reporting">
-      <div class="tab-content-inner">
-        <img src="/images/icon-report.png" alt="Reporting Concerns Icon" class="section-icon" />
-        <h2>5. Reporting Concerns</h2>
-        <p>
-          If you have concerns related to safeguarding or potential radicalization, please follow 
-          our reporting procedures.
-        </p>
-        <button class="modal-open-button tooltip" data-modal-target="#reportModal" data-tooltip="View Reporting Procedure" aria-label="View Reporting Procedure">View Reporting Procedure</button>
-      </div>
-    </section>
-
     <!-- ADDITIONAL RESOURCES -->
     <section class="tab-content" id="additional-resources">
       <div class="tab-content-inner">
@@ -238,8 +210,8 @@
         <img src="/images/icon-faq.png" alt="FAQs Icon" class="section-icon" />
         <h2>8. FAQs</h2>
         <div class="accordion">
-          <button class="accordion-button">What happens if I suspect a safeguarding issue?</button>
-          <div class="accordion-content">
+          <button class="accordion-button" aria-expanded="false" aria-controls="accordion-content-1">What happens if I suspect a safeguarding issue?</button>
+          <div class="accordion-content" id="accordion-content-1">
             <p>
               Report it immediately to the Designated Safeguarding Lead or follow our 
               safeguarding reporting procedures.
@@ -247,8 +219,8 @@
           </div>
         </div>
         <div class="accordion">
-          <button class="accordion-button">How can I integrate British Values into my lessons?</button>
-          <div class="accordion-content">
+          <button class="accordion-button" aria-expanded="false" aria-controls="accordion-content-2">How can I integrate British Values into my lessons?</button>
+          <div class="accordion-content" id="accordion-content-2">
             <p>
               Use real-world examples, encourage open discussions, and link each value to 
               class topics or community events.
@@ -256,8 +228,8 @@
           </div>
         </div>
         <div class="accordion">
-          <button class="accordion-button">Who can I contact for further information on Prevent?</button>
-          <div class="accordion-content">
+          <button class="accordion-button" aria-expanded="false" aria-controls="accordion-content-3">Who can I contact for further information on Prevent?</button>
+          <div class="accordion-content" id="accordion-content-3">
             <p>
               Contact our Prevent Lead or refer to the <a href="https://www.gov.uk/"
               target="_blank" rel="noopener noreferrer">GOV.UK</a> website for official 
@@ -302,7 +274,7 @@
     <nav class="footer-nav">
       <button class="tab-button tooltip" data-tab-target="#additional-resources" data-tooltip="Additional Resources Section" aria-label="Additional Resources">Additional Resources</button>
       <button class="tab-button tooltip" data-tab-target="#legal-framework" data-tooltip="Legal Framework Section" aria-label="Legal Framework">Legal Framework</button>
-      <button class="footer-button" data-modal-target="#privacyModal" aria-label="Privacy Policy">Privacy Policy</button>
+      <button class="footer-button modal-open-button" data-modal-target="#privacyModal" aria-label="Privacy Policy">Privacy Policy</button>
     </nav>
     <p>&copy; 2024 Ben Darlington</p>
   </footer>
@@ -313,8 +285,7 @@
       <span class="modal-close-button tooltip" data-modal-target="#privacyModal" data-tooltip="Close Modal" aria-label="Close">&times;</span>
       <h2 id="privacyModalTitle">Privacy Policy</h2>
       <p>
-        <!-- Privacy policy content goes here -->
-        This is the Privacy Policy of Ben Darlington. We are committed to protecting your personal data and respecting your privacy.
+        We do not take, keep, or use any of your data.
       </p>
     </div>
   </div>
