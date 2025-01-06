@@ -5,6 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>British Values, Safeguarding & Prevent - SPA</title>
   <link rel="stylesheet" href="styles.css" />
+  <!-- Preconnect to YouTube for faster iframe loading -->
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="https://www.google.com">
+
+  <!-- Additional Metadata -->
+  <meta name="description" content="A single-page application about British Values, Safeguarding, and Prevent Duty, creating a safe and inclusive environment for everyone.">
+  <meta name="keywords" content="British Values, Safeguarding, Prevent Duty, Education, Safety, Inclusivity">
+  <meta name="author" content="Ben Darlington">
+  
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="British Values, Safeguarding & Prevent - SPA">
+  <meta property="og:description" content="Creating a safe and inclusive environment for everyone.">
+  <meta property="og:image" content="/images/hero.png">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="British Values, Safeguarding & Prevent - SPA">
+  <meta name="twitter:description" content="Creating a safe and inclusive environment for everyone.">
+  <meta name="twitter:image" content="/images/hero.png">
 </head>
 <body>
 
@@ -15,16 +36,16 @@
 
   <!-- HERO SECTION -->
   <header class="hero">
-    <img src="/images/hero.png" alt="British Values, Safeguarding & Prevent Hero Image" class="hero-image" />
+    <img src="/images/hero.png" alt="British Values, Safeguarding & Prevent Hero Image" class="hero-image" loading="lazy" />
     <h1 class="hero-title">British Values, Safeguarding & Prevent</h1>
     <p class="hero-subtitle">Creating a safe and inclusive environment for everyone</p>
     <!-- Burger Menu Icon -->
-    <img src="images/burger.webp" alt="Toggle navigation menu" class="burger" aria-label="Toggle navigation menu" role="button" tabindex="0" />
+    <img src="images/burger.png" alt="Toggle navigation menu" class="burger" aria-label="Toggle navigation menu" role="button" tabindex="0" />
   </header>
 
   <!-- TABBED NAVIGATION -->
   <nav class="tab-nav">
-    <button class="tab-button tooltip" data-tab-target="#british-values" data-tooltip="British Values Section" aria-label="British Values">British Values</button>
+    <button class="tab-button tooltip active" data-tab-target="#british-values" data-tooltip="British Values Section" aria-label="British Values">British Values</button>
     <button class="tab-button tooltip" data-tab-target="#safeguarding" data-tooltip="Safeguarding Section" aria-label="Safeguarding">Safeguarding</button>
     <button class="tab-button tooltip" data-tab-target="#prevent-duty" data-tooltip="Prevent Duty Section" aria-label="Prevent Duty">Prevent Duty</button>
   </nav>
@@ -32,9 +53,9 @@
   <!-- MAIN CONTENT SECTIONS -->
   <main>
     <!-- BRITISH VALUES -->
-    <section class="tab-content" id="british-values">
+    <section class="tab-content active" id="british-values">
       <div class="tab-content-inner">
-        <img src="/images/icon-british-values.png" alt="British Values Icon" class="section-icon" />
+        <img src="/images/icon-british-values.png" alt="British Values Icon" class="section-icon" loading="lazy" />
         <h2>2. British Values</h2>
         <p>
           The fundamental British Values as defined by the government include:
@@ -53,7 +74,7 @@
           <strong>Implementation:</strong> These values are integrated into the curriculum and daily 
           activities to promote a cohesive and inclusive environment. Through classroom discussions, 
           group projects, and events, learners explore and embody these principles.
-        </p> <iframe width="560" height="315" src="https://www.youtube.com/embed/jUg8ue5_vvA?si=tz7OsOBpyzvIkQBx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </p> <iframe width="560" height="315" src="https://www.youtube.com/embed/jUg8ue5_vvA?si=tz7OsOBpyzvIkQBx" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
        
         
         <div class="card-grid">
@@ -101,7 +122,7 @@
     <!-- SAFEGUARDING -->
     <section class="tab-content" id="safeguarding">
       <div class="tab-content-inner">
-        <img src="/images/icon-safeguarding.png" alt="Safeguarding Icon" class="section-icon" />
+        <img src="/images/icon-safeguarding.png" alt="Safeguarding Icon" class="section-icon" loading="lazy" />
         <h2>3. Safeguarding</h2>
         <p>
           <strong>Definition:</strong> Safeguarding ensures the protection of individuals from abuse, 
@@ -110,11 +131,11 @@
         
         <!-- Video Gallery -->
         <div class="video-gallery">
-    <iframe class="video active" width="560" height="315" src="https://www.youtube.com/embed/qWO_WfnRW_U?si=lUrS2NTkRQ9QGs6W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/JS33VJcaxjQ?si=5ic3C2tstWv5jJ-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/_Ki7XsezOWw?si=_WD40kQ-TMGDRfzt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/8TTb_Zp43l4?si=VAkkZ3T3TG857yYZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b-ybDjFPDRk?si=xpVUZAoSH7ra2QPh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video active" width="560" height="315" src="https://www.youtube.com/embed/qWO_WfnRW_U?si=lUrS2NTkRQ9QGs6W" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/JS33VJcaxjQ?si=5ic3C2tstWv5jJ-A" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/_Ki7XsezOWw?si=_WD40kQ-TMGDRfzt" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/8TTb_Zp43l4?si=VAkkZ3T3TG857yYZ" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b-ybDjFPDRk?si=xpVUZAoSH7ra2QPh" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div class="video-nav">
         <button class="prev-video" aria-label="Previous video">Previous</button>
         <button class="next-video" aria-label="Next video">Next</button>
@@ -140,7 +161,7 @@
     <!-- PREVENT DUTY -->
     <section class="tab-content" id="prevent-duty">
       <div class="tab-content-inner">
-        <img src="/images/icon-prevent.png" alt="Prevent Duty Icon" class="section-icon" />
+        <img src="/images/icon-prevent.png" alt="Prevent Duty Icon" class="section-icon" loading="lazy" />
         <h2>4. Prevent Duty</h2>
         <p>
           <strong>Definition:</strong> The Prevent duty is part of the UK's counter-terrorism 
@@ -152,7 +173,7 @@
           at risk of radicalization. They must work with local authorities and police where 
           necessary.
         </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Otc2eaRY32s?si=zOs1-_1PxM-75t7D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Otc2eaRY32s?si=zOs1-_1PxM-75t7D" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <h3>Resources</h3>
         <p>
           <a href="https://www.gov.uk/government/publications/prevent-duty-guidance"
@@ -166,7 +187,7 @@
     <!-- ADDITIONAL RESOURCES -->
     <section class="tab-content" id="additional-resources">
       <div class="tab-content-inner">
-        <img src="/images/icon-resources.png" alt="Resources Icon" class="section-icon" />
+        <img src="/images/icon-resources.png" alt="Resources Icon" class="section-icon" loading="lazy" />
         <h2>6. Additional Resources</h2>
         <ul>
           <li>
@@ -192,7 +213,7 @@
     <!-- LEGAL FRAMEWORK -->
     <section class="tab-content" id="legal-framework">
       <div class="tab-content-inner">
-        <img src="/images/icon-legal.png" alt="Legal Framework Icon" class="section-icon" />
+        <img src="/images/icon-legal.png" alt="Legal Framework Icon" class="section-icon" loading="lazy" />
         <h2>7. Legal Framework</h2>
         <p>
           Our practices are underpinned by relevant legislation and guidance, including:
@@ -207,7 +228,7 @@
     <!-- FAQs -->
     <section class="tab-content" id="faqs">
       <div class="tab-content-inner">
-        <img src="/images/icon-faq.png" alt="FAQs Icon" class="section-icon" />
+        <img src="/images/icon-faq.png" alt="FAQs Icon" class="section-icon" loading="lazy" />
         <h2>8. FAQs</h2>
         <div class="accordion">
           <button class="accordion-button" aria-expanded="false" aria-controls="accordion-content-1">What happens if I suspect a safeguarding issue?</button>
@@ -291,6 +312,6 @@
   </div>
 
   <!-- SINGLE JS FILE -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
