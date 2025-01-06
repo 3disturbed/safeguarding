@@ -485,4 +485,25 @@ main {
 /* Example: Remove any inline styles like the following */
 /* .example {
      color: blue; /* Instead, use external CSS */
-} */
+}
+
+/* ...existing code... */
+
+@media (max-width: 768px) {
+  .hero-image {
+    position: static; 
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero {
+    padding: 1rem 0.5rem; /* Slightly reduce padding on smaller screens */
+  }
+
+  .tab-nav {
+    width: 100%;
+  }
+}
+
+/* ...existing code... */
