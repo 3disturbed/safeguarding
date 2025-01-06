@@ -189,4 +189,8 @@ if (prevButton && nextButton) {
  ****************************************************/
 updateProgress();
 
+window.addEventListener('resize', () => {
+  location.reload();
+});
+
 
