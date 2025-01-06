@@ -1,274 +1,227 @@
-British Values, Safeguarding, and Prevent
+# British Values, Safeguarding, and Prevent
 
-View Live Project Here
+## View Live Project Here
 
-View Live Project Here
+[View Live Project Here](https://3disturbed.github.io/safeguarding/index.html)
 
 This project is a single-page static website designed to educate and promote understanding of British Values, Safeguarding, and the Prevent Duty in educational and childcare settings. By offering clear and relatable content, this platform helps users foster empathy, ensure safety, and navigate their responsibilities effectively. The primary objective is to create a resource that reduces misunderstandings, enhances compliance, and facilitates better communication.
 
-Contents
+---
 
-UXD (User Experience Design)
+## Contents
 
-User Stories
+- [UXD (User Experience Design)](#user-experience-ux)
+- [User Stories](#user-stories)
+- [Creation Process (Strategy -> Surface)](#creation-process)
+  - [Wireframes](#wireframes)
+- [Design](#design)
+  - [Colour Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+- [Page Features](#page-features)
+  - [Navbar](#navbar)
+  - [Hero Image](#hero-image)
+  - [Footer](#footer)
+  - [Responsive Design](#responsive-design)
+- [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Frameworks, Libraries, Technologies & Programs](#frameworks-libraries-technologies--programs)
+- [Testing](#testing)
+  - [Validation Tests](#validation-tests)
+  - [Lighthouse Scores](#lighthouse-scores)
+- [Credits](#credits)
 
-Creation Process (Strategy -> Surface)
+---
 
-Wireframes
+## User Experience (UX)
 
-Design
+### **User Stories**
 
-Colour Scheme
-
-Typography
-
-Imagery
-
-Page Features
-
-Navbar
-
-Hero Image
-
-Footer
-
-Responsive Design
-
-Future Features
-
-Technologies Used
-
-Languages
-
-Frameworks, Libraries, Technologies & Programs
-
-Testing
-
-Validation Tests
-
-Lighthouse Scores
-
-Credits
-
-User Experience (UX)
-
-User Stories
-
-Primary Goal
+#### **Primary Goal**
 
 The website serves as an educational tool aimed at:
 
-Fostering awareness and understanding: Simplifying concepts like British Values and Safeguarding for broader audiences.
+- **Fostering awareness and understanding**: Simplifying concepts like British Values and Safeguarding for broader audiences.
+- **Providing actionable information**: Ensuring users know their responsibilities under the Prevent Duty.
+- **Promoting inclusivity and compliance**: Supporting users to embed these principles in daily activities.
 
-Providing actionable information: Ensuring users know their responsibilities under the Prevent Duty.
+[Back to Contents](#contents)
 
-Promoting inclusivity and compliance: Supporting users to embed these principles in daily activities.
+#### **First-Time Users**
 
-Back to Contents
+- Navigate a friendly, accessible website with intuitive design.
+- Access all information through a well-structured single-page layout.
+- Locate helpful resources and links throughout the site.
 
-First-Time Users
+#### **Returning Users**
 
-Navigate a friendly, accessible website with intuitive design.
+- Revisit information with ease for reference.
+- Share resources with colleagues or community members.
 
-Access all information through a well-structured single-page layout.
+[Back to Contents](#contents)
 
-Locate helpful resources and links throughout the site.
+---
 
-Returning Users
+## Creation Process
 
-Revisit information with ease for reference.
+### **1. Strategy**
 
-Share resources with colleagues or community members.
+- Design a resource-friendly, inviting platform for educators, parents, and organizations.
+- Content must balance clarity and detail to suit a diverse audience.
+- Ensure the site is mobile-responsive and accessible to all users.
 
-Back to Contents
+[Back to Contents](#contents)
 
-Creation Process
+### **2. Scope**
 
-1. Strategy
+- Provide essential, digestible information about British Values, Safeguarding, and Prevent.
+- Maintain device responsiveness and ease of use.
+- Design a single-page layout that encourages easy exploration.
 
-Design a resource-friendly, inviting platform for educators, parents, and organizations.
+### **3. Structure**
 
-Content must balance clarity and detail to suit a diverse audience.
+- Clear, consistent navigation across sections.
+- Smooth scrolling functionality for seamless transitions between sections.
+- Uniform design to create a cohesive and engaging user experience.
 
-Ensure the site is mobile-responsive and accessible to all users.
+[Back to Contents](#contents)
 
-Back to Contents
+### **4. Skeleton**
 
-2. Scope
+- Navigation bar fixed at the top for seamless browsing.
+- Prominent hero image to set a welcoming tone.
+- Content divided into distinct sections with logical flow.
 
-Provide essential, digestible information about British Values, Safeguarding, and Prevent.
+### **5. Surface**
 
-Maintain device responsiveness and ease of use.
+- Welcoming, calming color palette designed to appeal to all users.
+- Clear, easy-to-read fonts for headings and body text.
+- Imagery that feels inclusive, positive, and informative.
 
-Design a single-page layout that encourages easy exploration.
+#### **Wireframes**
 
-3. Structure
+- Single-page layout showcasing the homepage with section scroll interactions for:
+  - British Values
+  - Safeguarding
+  - Prevent Duty
+  - Reporting Concerns
+  - Additional Resources
 
-Clear, consistent navigation across sections.
+[Back to Contents](#contents)
 
-Smooth scrolling functionality for seamless transitions between sections.
+---
 
-Uniform design to create a cohesive and engaging user experience.
+## Design
 
-Back to Contents
+### **Color Scheme**
 
-4. Skeleton
+- Adapted for accessibility and visual appeal.
+- Subtle, calming tones to create an inclusive environment.
 
-Navigation bar fixed at the top for seamless browsing.
+### **Typography**
 
-Prominent hero image to set a welcoming tone.
+- Headers: **Fira Mono Bold**, weight 700, imported via Google Fonts.
+- Body Text: **Lexend**, weights 300/400, known for readability.
 
-Content divided into distinct sections with logical flow.
+[Back to Contents](#contents)
 
-5. Surface
+### **Imagery**
 
-Welcoming, calming color palette designed to appeal to all users.
+- Images chosen to create a safe, welcoming space.
+- Illustrations and photos designed to foster empathy and clarity.
 
-Clear, easy-to-read fonts for headings and body text.
+[Back to Contents](#contents)
 
-Imagery that feels inclusive, positive, and informative.
+---
 
-Wireframes
+## Page Features
 
-Single-page layout showcasing the homepage with section scroll interactions for:
+### **Navbar**
 
-British Values
+- Fixed navigation bar with smooth scrolling to sections.
+- Links to key sections: British Values, Safeguarding, Prevent, Reporting Concerns, and Resources.
 
-Safeguarding
+[Back to Contents](#contents)
 
-Prevent Duty
+### **Hero Image**
 
-Reporting Concerns
+- Prominent, engaging hero image with welcoming text.
 
-Additional Resources
+### **Footer**
 
-Back to Contents
+- Contact information and quick links for accessibility.
 
-Design
+### **Responsive Design**
 
-Color Scheme
+- Adaptive layout ensuring functionality across devices.
+- Optimized for desktop, tablet, and mobile views.
 
-Adapted for accessibility and visual appeal.
+[Back to Contents](#contents)
 
-Subtle, calming tones to create an inclusive environment.
+---
 
-Typography
+## Future Features
 
-Headers: Fira Mono Bold, weight 700, imported via Google Fonts.
+- Additional sections for broader mental health topics like Autism.
+- More in-depth tools and resources for educators and organizations.
+- Enhanced accessibility features for neurodiverse users.
 
-Body Text: Lexend, weights 300/400, known for readability.
+[Back to Contents](#contents)
 
-Back to Contents
+---
 
-Imagery
+## Technologies Used
 
-Images chosen to create a safe, welcoming space.
+### **Languages**
 
-Illustrations and photos designed to foster empathy and clarity.
+- HTML5
+- CSS3
+- JavaScript
 
-Back to Contents
+[Back to Contents](#contents)
 
-Page Features
+### **Frameworks, Libraries, Technologies & Programs**
 
-Navbar
+- **Balsamiq**: Wireframe design.
+- **GitHub**: Repository hosting.
+- **Git**: Version control.
+- **Google Fonts**: Typography.
+- **Font Awesome**: Icons.
+- **Coolers**: Color palette generation.
+- **Tiny PNG**: Image compression.
+- **Google Lighthouse**: Performance audits.
+- **W3C Validator**: Code validation.
 
-Fixed navigation bar with smooth scrolling to sections.
+[Back to Contents](#contents)
 
-Links to key sections: British Values, Safeguarding, Prevent, Reporting Concerns, and Resources.
+---
 
-Back to Contents
+## Testing
 
-Hero Image
+### **Validation Tests**
 
-Prominent, engaging hero image with welcoming text.
+- **HTML**: Passed W3C Validation.
+- **CSS**: Passed W3C Validation.
 
-Footer
+### **Lighthouse Scores**
 
-Contact information and quick links for accessibility.
+- Performance, accessibility, best practices, and SEO optimized.
 
-Responsive Design
+[Back to Contents](#contents)
 
-Adaptive layout ensuring functionality across devices.
+---
 
-Optimized for desktop, tablet, and mobile views.
+## Credits
 
-Back to Contents
+- **Images**:
+  - Hero image and favicon: Generated by ChatGPT.
+  - ADHD-related imagery: Pexels.
+  - Family and Friends: Pixabay.
+- **Content**:
+  - Personal experiences and expert accounts.
+- **Acknowledgements**:
+  - Thanks to Alexander(Code Institute liaison) , John Rearden(Code Institute SME and Coding Coach)  and testers for their invaluable feedback.
 
-Future Features
-
-Additional sections for broader mental health topics like Autism.
-
-More in-depth tools and resources for educators and organizations.
-
-Enhanced accessibility features for neurodiverse users.
-
-Back to Contents
-
-Technologies Used
-
-Languages
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Back to Contents
-
-Frameworks, Libraries, Technologies & Programs
-
-Balsamiq: Wireframe design.
-
-GitHub: Repository hosting.
-
-Git: Version control.
-
-Google Fonts: Typography.
-
-Font Awesome: Icons.
-
-Coolers: Color palette generation.
-
-Tiny PNG: Image compression.
-
-Google Lighthouse: Performance audits.
-
-W3C Validator: Code validation.
-
-Back to Contents
-
-Testing
-
-Validation Tests
-
-HTML: Passed W3C Validation.
-
-CSS: Passed W3C Validation.
-
-Lighthouse Scores
-
-Performance, accessibility, best practices, and SEO optimized.
-
-Back to Contents
-
-Credits
-
-Images:
-
-Hero image and favicon: Generated by ChatGPT.
-
-ADHD-related imagery: Pexels.
-
-Family and Friends: Pixabay.
-
-Content:
-
-Personal experiences and expert accounts.
-
-Acknowledgements:
-
-Thanks to Alexander(Code Institute liaison) , John Rearden(Code Institute SME and Coding Coach)  and testers for their invaluable feedback.
-
-Back to Contents
+[Back to Contents](#contents)
 
