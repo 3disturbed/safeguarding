@@ -1,4 +1,5 @@
 # British Values, Safeguarding, and Prevent
+![hero](https://github.com/user-attachments/assets/cb6a2734-641d-4bd8-bc0e-b816ce417edc)
 
 ## View Live Project Here
 
