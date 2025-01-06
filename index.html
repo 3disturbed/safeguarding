@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>British Values, Safeguarding & Prevent - SPA</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=1.0.1" />
   <!-- Preconnect to YouTube for faster iframe loading -->
   <link rel="preconnect" href="https://www.youtube.com">
   <link rel="preconnect" href="https://www.google.com">
@@ -26,6 +26,20 @@
   <meta name="twitter:title" content="British Values, Safeguarding & Prevent - SPA">
   <meta name="twitter:description" content="Creating a safe and inclusive environment for everyone.">
   <meta name="twitter:image" content="/images/hero.png">
+
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self';
+    style-src 'self';
+    img-src 'self' data: https://www.youtube.com https://*.google.com;
+    connect-src 'self';
+    frame-src 'self' https://www.youtube.com;
+    font-src 'self';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'self';
+  ">
 </head>
 <body>
 
@@ -312,6 +326,6 @@
   </div>
 
   <!-- SINGLE JS FILE -->
-  <script src="script.js" defer></script>
+  <script src="script.js?v=1.0.1" defer></script>
 </body>
 </html>

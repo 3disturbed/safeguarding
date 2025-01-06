@@ -184,5 +184,9 @@ if (prevButton && nextButton) {
     });
 }
 
-// Initialize progress
+/****************************************************
+ * Initialize progress
+ ****************************************************/
 updateProgress();
+
+

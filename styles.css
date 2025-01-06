@@ -47,12 +47,12 @@ body {
 .hero-title {
   font-size: 2rem;
   margin-top: 1rem;
-  color: var(--color-light); /* Ensure text color contrasts with header background */
+  color: #000; /* Changed from var(--color-light) to black */
 }
 
 .hero-subtitle {
   font-size: 1rem;
-  color: var(--color-light); /* Ensure text color contrasts with header background */
+  color: #000; /* Changed from var(--color-light) to black */
   margin-top: 0.5rem;
 }
 
@@ -479,3 +479,10 @@ main {
 .footer-button:hover {
   color: var(--color-primary-hover);
 }
+
+/* Ensure no inline styles are used */
+
+/* Example: Remove any inline styles like the following */
+/* .example {
+     color: blue; /* Instead, use external CSS */
+} */
