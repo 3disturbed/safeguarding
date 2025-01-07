@@ -207,7 +207,7 @@ const SafeguardingMillionaire = (() => {
         questionEl.textContent = won ? 
             `Congratulations! You've won £${moneyValues[currentLevel-1]}!` :
             "I'm sorry, that was the wrong answer!";
-        
+        scoreEl.textContent
         optionsEl.innerHTML = '';
         tryAgainBtn.classList.remove('hidden'); // Use CSS class to show button
     };
