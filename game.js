@@ -121,29 +121,39 @@ const SafeguardingMillionaire = (() => {
         });
     };
 
-    const selectOption = (isCorrect) => {
-        const allOptions = optionsEl.querySelectorAll('.wm-option');
-        allOptions.forEach((btn) => (btn.disabled = true));
+   const selectOption = async (isCorrect) => {
+    const allOptions = optionsEl.querySelectorAll('.wm-option');
+    allOptions.forEach((btn) => (btn.disabled = true)); // Disable all buttons
 
-        if (isCorrect) {
-            currentLevel++;
-            scoreEl.textContent = `Current Prize: £${moneyValues[currentLevel]}`;
-            setTimeout(() => {
-                currentQuestionIndex++;
-                if (currentQuestionIndex < questions.length) {
-                    correct.play();
-                    loadQuestion();
-                } else {
-                    wrong.play();
-                    endGame(true);
-                }
-            }, 2000);
+    if (isCorrect) {
+        correct.play();
+        const correctOption = optionsEl.querySelector('[data-correct="true"]');
+        correctOption.style.backgroundColor = '#4CAF50'; // Green for correct
+        correctOption.style.color = 'white';
+        await wait(2000); // Delay before loading the next question
+
+        currentLevel++;
+        scoreEl.textContent = `Current Prize: £${moneyValues[currentLevel]}`;
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            loadQuestion();
         } else {
-            setTimeout(() => {
-                endGame(false);
-            }, 2000);
+            endGame(true);
         }
-    };
+    } else {
+        wrong.play();
+        const selectedOption = optionsEl.querySelector('.wm-option:hover');
+        selectedOption.style.backgroundColor = '#FF6B6B'; // Red for wrong
+        selectedOption.style.color = 'white';
+
+        const correctOption = optionsEl.querySelector('[data-correct="true"]');
+        correctOption.style.backgroundColor = '#4CAF50'; // Highlight correct answer
+        correctOption.style.color = 'white';
+        await wait(2000); // Delay before ending the game
+
+        endGame(false);
+    }
+};
 
     const endGame = (won) => {
         questionEl.textContent = won
