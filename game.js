@@ -1,6 +1,6 @@
 // game.js
 const wrong = new Audio('./sounds/wrong.mp3');
-const correct =  new Audio('./sounds/correct.mp3);
+const correct =  new Audio('./sounds/correct.mp3');
                            
 const SafeguardingMillionaire = (() => {
     // Private Variables
