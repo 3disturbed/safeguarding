@@ -1,7 +1,7 @@
 // game.js
 const wrong = new Audio('./sounds/wrong.mp3');
 const correct =  new Audio('./sounds/correct.mp3');
-
+const buildup = new Audio('./sounds/buildup.mp3');
 const SafeguardingMillionaire = (() => {
     let questions = [];
     let currentQuestionIndex = 0;
@@ -28,15 +28,15 @@ const SafeguardingMillionaire = (() => {
 
         gameContainer.innerHTML = `
             <div class="wm-game-container">
-                <button class="fullscreen-btn" aria-label="Toggle fullscreen">⤢</button>
+                <button class="fullscreen-btn" aria-label="Toggle fullscreen">Return to Site</button>
                 <h2 class="wm-title">Who Wants to Be a Safeguarding Millionaire</h2>
                 <div class="wm-score">Current Prize: £${moneyValues[currentLevel]}</div>
                 <div class="wm-question-container">
                     <div id="wm-question">Loading question...</div>
                     <div class="wm-options-grid" id="wm-options"></div>
                 </div>
-                <button id="wm-try-again" class="wm-try-again hidden">Try Again</button>
-            </div>
+                
+            </div><button id="wm-try-again" class="wm-try-again hidden">Try Again</button>
         `;
 
         const fullscreenBtn = gameContainer.querySelector('.fullscreen-btn');
@@ -49,7 +49,7 @@ const SafeguardingMillionaire = (() => {
         });
 
         document.addEventListener('fullscreenchange', () => {
-            fullscreenBtn.textContent = document.fullscreenElement ? '⤓' : '⤢';
+            fullscreenBtn.textContent = document.fullscreenElement ? 'Return' : '⤢ Fullscreen';
         });
 
         gameContainer.classList.add('active');
@@ -117,6 +117,10 @@ const SafeguardingMillionaire = (() => {
             btn.dataset.correct = option.isCorrect;
             btn.setAttribute('aria-label', `Option ${index + 1}`);
             btn.addEventListener('click', () => selectOption(option.isCorrect));
+            // add onclick to make text yellow when clicked
+            btn.addEventListener('click', () => {
+                btn.style.color = '#FFD700';
+            });
             optionsEl.appendChild(btn);
      
         });        
@@ -125,18 +129,26 @@ const SafeguardingMillionaire = (() => {
 
 const selectOption = async (isCorrect) => {
     const allOptions = optionsEl.querySelectorAll('.wm-option');
-    allOptions.forEach((btn) => (btn.disabled = true)); // Disable all buttons
 
+
+
+    // update option colors to show correct and wrong answers
+    buildup.play();
+    await wait(3000); // Delay before loading the next question
+    for (let i = 0; i < allOptions.length; i++) { // red for wrong, green for correct
+            allOptions[i].style.color = 'red';
+            
+    }
     if (isCorrect) {
         correct.play();
         const correctOption = optionsEl.querySelector('[data-correct="true"]');
         correctOption.style.backgroundColor = '#4CAF50'; // Green for correct
-        correctOption.style.color = 'white';
+        correctOption.style.color = 'green';
         currentLevel++;
         scoreEl.textContent = `Current Prize: £${moneyValues[currentLevel]}`;
         currentQuestionIndex++;
         if (currentQuestionIndex < questions.length) {
-            await wait(5000); // Delay before loading the next question
+            await wait(2000); // Delay before loading the next question
 
             loadQuestion();
         } else {
@@ -162,6 +174,7 @@ const selectOption = async (isCorrect) => {
             ? `Congratulations! You've won £${moneyValues[currentLevel - 1]}!`
             : "I'm sorry, that was the wrong answer!";
         optionsEl.innerHTML = '';
+        
         tryAgainBtn.classList.remove('hidden');
     };
 
