@@ -167,9 +167,13 @@ const SafeguardingMillionaire = (() => {
             const isCorrectOption = btn.dataset.correct === 'true';
             
             if (isCorrectOption) {
+                wrong.stop();
+                correct.stop();
                 correct.play();
                 btn.classList.add('correct-answer');
             } else {
+                wrong.stop();
+                correct.stop();
                 wrong.play();
                 btn.classList.add('wrong-answer');
             }
