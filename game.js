@@ -123,27 +123,31 @@ const SafeguardingMillionaire = (() => {
 
         return array;
     };
+    const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
     // Load a question
-    const loadQuestion = () => {
+    const loadQuestion = async () => { // Make this function async
         if (currentQuestionIndex >= questions.length) {
             endGame(true);
             return;
         }
-
+    
         const currentQuestion = questions[currentQuestionIndex];
         questionEl.textContent = `Question ${currentQuestionIndex + 1}: ${currentQuestion.question}`;
         optionsEl.innerHTML = '';
-
+    
         // Create a mapping of options with their correct/incorrect status
         let optionsWithStatus = currentQuestion.options.map((option, index) => ({
             text: option,
             isCorrect: index === currentQuestion.answer
         }));
-
+    
         // Shuffle the options while preserving their correct/incorrect status
         let shuffledOptions = shuffleArray([...optionsWithStatus]);
+    
+        // Wait for 5 seconds before displaying the options
         await wait(5000);
+    
         // Create and append options
         shuffledOptions.forEach((option, index) => {
             const btn = document.createElement('button');
