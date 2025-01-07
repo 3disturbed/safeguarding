@@ -131,8 +131,10 @@ const SafeguardingMillionaire = (() => {
             setTimeout(() => {
                 currentQuestionIndex++;
                 if (currentQuestionIndex < questions.length) {
+                    correct.play();
                     loadQuestion();
                 } else {
+                    wrong.play();
                     endGame(true);
                 }
             }, 2000);
