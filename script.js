@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (playGameBtn && gameContainer) {
         
         playGameBtn.addEventListener('click', () => {
-            window.theme.play();
+            //window.theme.play();
             tabContents.forEach(tab => tab.classList.remove('active'));
             const gameSection = document.getElementById('play-game');
             if (gameSection) {
