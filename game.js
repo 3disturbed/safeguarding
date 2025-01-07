@@ -109,7 +109,7 @@ const SafeguardingMillionaire = (() => {
         const shuffledOptions = shuffleArray([...optionsWithStatus]);
             
         await wait(5000); // 2-second suspense before showing options
-         // window.theme.pause();
+        window.theme.pause();
         shuffledOptions.forEach((option, index) => {
             const btn = document.createElement('button');
             btn.classList.add('wm-option');
@@ -118,6 +118,7 @@ const SafeguardingMillionaire = (() => {
             btn.setAttribute('aria-label', `Option ${index + 1}`);
             btn.addEventListener('click', () => selectOption(option.isCorrect));
             optionsEl.appendChild(btn);
+             await wait(2000);
         });        
 
     };
