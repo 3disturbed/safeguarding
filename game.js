@@ -1,7 +1,7 @@
 // game.js
 const wrong = new Audio('./sounds/wrong.mp3');
 const correct =  new Audio('./sounds/correct.mp3');
-const buildup = new Audio('./sounds/buildup.mp3');
+
 const SafeguardingMillionaire = (() => {
     let questions = [];
     let currentQuestionIndex = 0;
@@ -133,7 +133,6 @@ const selectOption = async (isCorrect) => {
 
 
     // update option colors to show correct and wrong answers
-    buildup.play();
     await wait(3000); // Delay before loading the next question
     for (let i = 0; i < allOptions.length; i++) { // red for wrong, green for correct
             allOptions[i].style.color = 'red';
