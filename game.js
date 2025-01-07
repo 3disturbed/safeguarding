@@ -109,7 +109,7 @@ const SafeguardingMillionaire = (() => {
         const shuffledOptions = shuffleArray([...optionsWithStatus]);
             
         await wait(5000); // 2-second suspense before showing options
-        theme.pause();
+         // window.theme.pause();
         shuffledOptions.forEach((option, index) => {
             const btn = document.createElement('button');
             btn.classList.add('wm-option');
