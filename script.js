@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevButton = document.querySelector('.prev-video');
     const nextButton = document.querySelector('.next-video');
     const accordionButtons = document.querySelectorAll('.accordion-button');
-
+    const theme = new Audio('./sounds/theme.mp3');
     // Tab Navigation
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
@@ -85,7 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Game Initialization
     if (playGameBtn && gameContainer) {
+        
         playGameBtn.addEventListener('click', () => {
+            theme.play();
             tabContents.forEach(tab => tab.classList.remove('active'));
             const gameSection = document.getElementById('play-game');
             if (gameSection) {
