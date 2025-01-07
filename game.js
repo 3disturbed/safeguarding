@@ -146,7 +146,7 @@ const selectOption = async (isCorrect) => {
         currentLevel++;
         scoreEl.textContent = `Current Prize: £${moneyValues[currentLevel]}`;
         currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
+        if (currentQuestionIndex < 15) {
             await wait(2000); // Delay before loading the next question
 
             loadQuestion();
