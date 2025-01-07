@@ -143,7 +143,7 @@ const SafeguardingMillionaire = (() => {
 
         // Shuffle the options while preserving their correct/incorrect status
         let shuffledOptions = shuffleArray([...optionsWithStatus]);
-
+        await wait(5000);
         // Create and append options
         shuffledOptions.forEach((option, index) => {
             const btn = document.createElement('button');
