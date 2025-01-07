@@ -118,7 +118,7 @@ const SafeguardingMillionaire = (() => {
             btn.setAttribute('aria-label', `Option ${index + 1}`);
             btn.addEventListener('click', () => selectOption(option.isCorrect));
             optionsEl.appendChild(btn);
-             await wait(2000);
+     
         });        
 
     };
