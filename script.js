@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevButton = document.querySelector('.prev-video');
     const nextButton = document.querySelector('.next-video');
     const accordionButtons = document.querySelectorAll('.accordion-button');
-    const theme = new Audio('./sounds/theme.mp3');
+    window.theme = new Audio('./sounds/theme.mp3');
     // Tab Navigation
     tabButtons.forEach(button => {
         button.addEventListener('click', () => {
