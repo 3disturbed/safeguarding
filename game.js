@@ -1,5 +1,7 @@
 // game.js
-
+const wrong = new Audio('./sounds/wrong.mp3');
+const correct =  new Audio('./sounds/correct.mp3);
+                           
 const SafeguardingMillionaire = (() => {
     // Private Variables
     let questions = [];
@@ -35,7 +37,7 @@ const SafeguardingMillionaire = (() => {
 
         gameContainer.innerHTML = `
             <div class="wm-game-container">
-                <button class="fullscreen-btn">⤢</button>
+                <button class="fullscreen-btn">Return to Site...</button>
                 <h2 class="wm-title">Who Wants to Be a Safeguarding Millionaire</h2>
                 <div class="wm-score">Current Prize: £${moneyValues[currentLevel]}</div>
                 <div class="wm-question-container">
@@ -165,8 +167,10 @@ const SafeguardingMillionaire = (() => {
             const isCorrectOption = btn.dataset.correct === 'true';
             
             if (isCorrectOption) {
+                correct.play();
                 btn.classList.add('correct-answer');
             } else {
+                wrong.play();
                 btn.classList.add('wrong-answer');
             }
         });
