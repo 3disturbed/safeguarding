@@ -50,7 +50,7 @@
 
   <!-- HERO SECTION -->
   <header class="hero">
-    <img src="/safeguarding/images/hero.webp" alt="British Values, Safeguarding & Prevent Hero Image" class="hero-image" loading="lazy" width="1920" height="1080" />
+    <img src="./images/hero.webp" alt="British Values, Safeguarding & Prevent Hero Image" class="hero-image" loading="lazy" width="1920" height="1080" />
     <h1 class="hero-title">British Values, Safeguarding & Prevent</h1>
     <p class="hero-subtitle">Creating a safe and inclusive environment for everyone</p>
     <!-- Burger Menu Icon -->
@@ -62,7 +62,8 @@
     <button class="tab-button tooltip active" data-tab-target="#british-values" data-tooltip="British Values Section" aria-label="British Values">British Values</button>
     <button class="tab-button tooltip" data-tab-target="#safeguarding" data-tooltip="Safeguarding Section" aria-label="Safeguarding">Safeguarding</button>
     <button class="tab-button tooltip" data-tab-target="#prevent-duty" data-tooltip="Prevent Duty Section" aria-label="Prevent Duty">Prevent Duty</button>
-  </nav>
+    <button id="play-game-btn" class="tab-button tooltip" data-tooltip="Play Game Section" aria-label="Play Game">Play Game</button>
+ </nav>
 
   <!-- MAIN CONTENT SECTIONS -->
   <main>
@@ -193,7 +194,9 @@
           safeguarding concerns effectively. This training ensures that everyone is aware of 
           the signs of potential harm and how to take appropriate action.
         </p>
+        
       </div>
+   
     </section>
 
     <!-- PREVENT DUTY -->
@@ -303,6 +306,11 @@
         </div>
       </div>
     </section>
+
+    <!-- PLAY GAME SECTION -->
+    <section class="tab-content" id="play-game">
+        <div id="safeguarding-game"></div>
+    </section>
   </main>
 
   <!-- MODAL (Reporting Procedure) -->
@@ -354,7 +362,8 @@
     </div>
   </div>
 
-  <!-- SINGLE JS FILE -->
+  <!-- Load Scripts Externally -->
   <script src="script.js?v=1.0.1" defer></script>
+  <script src="game.js?v=1.0.1" defer></script>
 </body>
 </html>

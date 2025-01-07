@@ -1,0 +1,202 @@
+[
+    {
+        "question": "Which act defines the Prevent Duty?",
+        "options": ["Counter-Terrorism and Security Act 2015", "Data Protection Act 2018", "Equality Act 2010", "Human Rights Act 1998"],
+        "answer": 0
+    },
+    {
+        "question": "What does Safeguarding aim to protect individuals from?",
+        "options": ["Abuse", "Financial loss", "Cyber threats", "All of the above"],
+        "answer": 0
+    },
+    {
+        "question": "What are the four fundamental British Values?",
+        "options": [
+            "Democracy, Rule of Law, Individual Liberty, Mutual Respect & Tolerance",
+            "Freedom, Justice, Peace, Unity",
+            "Equality, Diversity, Inclusion, Fairness",
+            "Tradition, Heritage, Culture, History"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of these is a key principle of safeguarding?",
+        "options": [
+            "Empowerment - Supporting people to make their own decisions",
+            "Isolation - Keeping vulnerable people separate",
+            "Dependency - Making decisions for others",
+            "Authority - Maintaining strict control"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the main aim of the Prevent strategy?",
+        "options": [
+            "To stop people from being drawn into terrorism",
+            "To prevent cyber crime",
+            "To reduce traffic accidents",
+            "To improve public health"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What should you do if you have a safeguarding concern?",
+        "options": [
+            "Report it immediately to the designated safeguarding lead",
+            "Keep it to yourself to protect privacy",
+            "Wait to see if the situation improves",
+            "Discuss it with other colleagues first"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of these is NOT a sign of radicalization?",
+        "options": [
+            "Having different political views",
+            "Isolating themselves from family and friends",
+            "Expressing extreme views and intolerance",
+            "Accessing extremist content online"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What does 'Individual Liberty' mean in British Values?",
+        "options": [
+            "Freedom to make your own choices within the law",
+            "Freedom to do whatever you want",
+            "Freedom from any rules",
+            "Freedom only for certain groups"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is the 'Rule of Law' in British Values?",
+        "options": [
+            "Laws apply equally to everyone",
+            "Only police can make laws",
+            "Laws change daily",
+            "Laws only apply to certain people"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What action should you take if someone discloses abuse?",
+        "options": [
+            "Listen, reassure, and report to appropriate authorities",
+            "Promise to keep it secret",
+            "Try to investigate it yourself",
+            "Confront the alleged abuser"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which group is responsible for implementing Prevent?",
+        "options": [
+            "Everyone in public sector organizations",
+            "Only the police",
+            "Just teachers",
+            "Only government officials"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What does mutual respect and tolerance mean?",
+        "options": [
+            "Accepting people of different faiths and beliefs",
+            "Tolerating only certain beliefs",
+            "Forcing everyone to follow the same beliefs",
+            "Respecting only majority views"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "How is Democracy demonstrated in British Values?",
+        "options": [
+            "Through free and fair elections and voting rights",
+            "Through appointed leaders only",
+            "Through military leadership",
+            "Through hereditary positions"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which practice supports the British Value of Democracy?",
+        "options": [
+            "Student councils and class voting",
+            "Teachers making all decisions",
+            "Following orders without question",
+            "Avoiding group discussions"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "How can we promote Individual Liberty in education?",
+        "options": [
+            "Supporting students to make informed choices",
+            "Making all choices for students",
+            "Limiting student options",
+            "Enforcing strict uniformity"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What demonstrates Mutual Respect in practice?",
+        "options": [
+            "Listening to and valuing different opinions",
+            "Only accepting majority views",
+            "Ignoring different perspectives",
+            "Forcing everyone to agree"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "How is the Rule of Law supported in educational settings?",
+        "options": [
+            "Having clear, fair rules that apply to everyone",
+            "Having different rules for different groups",
+            "Changing rules without notice",
+            "Having no rules at all"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What are the three objectives of the Prevent strategy?",
+        "options": [
+            "Respond to ideology, Support vulnerable people, Work with sectors",
+            "Patrol borders, Monitor internet, Track suspects",
+            "Increase security, Reduce immigration, Build walls",
+            "Train police, Fund military, Control media"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What is Channel in relation to Prevent?",
+        "options": [
+            "A voluntary support programme for people vulnerable to radicalisation",
+            "A TV station dedicated to counter-terrorism",
+            "A secure communication system for police",
+            "A border control mechanism"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "What should you do if you suspect someone is being radicalised?",
+        "options": [
+            "Report it to your Prevent lead or safeguarding officer",
+            "Directly confront the person about their views",
+            "Ignore it as it's not your responsibility",
+            "Share your concerns on social media"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "Which of these is a key principle of Prevent?",
+        "options": [
+            "Safeguarding vulnerable people from radicalisation",
+            "Monitoring all religious activities",
+            "Restricting political discussions",
+            "Reporting all foreign students"
+        ],
+        "answer": 0
+    }
+]
