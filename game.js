@@ -108,7 +108,7 @@ const SafeguardingMillionaire = (() => {
 
         const shuffledOptions = shuffleArray([...optionsWithStatus]);
             
-        await wait(2000); // 2-second suspense before showing options
+        await wait(5000); // 2-second suspense before showing options
         theme.pause();
         shuffledOptions.forEach((option, index) => {
             const btn = document.createElement('button');
@@ -118,10 +118,11 @@ const SafeguardingMillionaire = (() => {
             btn.setAttribute('aria-label', `Option ${index + 1}`);
             btn.addEventListener('click', () => selectOption(option.isCorrect));
             optionsEl.appendChild(btn);
-        });
+        });        
+
     };
 
-   const selectOption = async (isCorrect) => {
+const selectOption = async (isCorrect) => {
     const allOptions = optionsEl.querySelectorAll('.wm-option');
     allOptions.forEach((btn) => (btn.disabled = true)); // Disable all buttons
 
@@ -130,7 +131,7 @@ const SafeguardingMillionaire = (() => {
         const correctOption = optionsEl.querySelector('[data-correct="true"]');
         correctOption.style.backgroundColor = '#4CAF50'; // Green for correct
         correctOption.style.color = 'white';
-        await wait(2000); // Delay before loading the next question
+        await wait(5000); // Delay before loading the next question
 
         currentLevel++;
         scoreEl.textContent = `Current Prize: £${moneyValues[currentLevel]}`;
