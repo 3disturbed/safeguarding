@@ -109,7 +109,6 @@ The website serves as an educational tool aimed at:
 | Wireframe                                                                                       | Actual |
 |-------------------------------------------------------------------------------------------------|--------|
 | ![image](https://github.com/user-attachments/assets/cd2d5833-99b4-4f88-876a-31267c741014)      | ![image](https://github.com/user-attachments/assets/5eca6ee9-f824-46ea-bde5-1780fbd53be1)
-     |
 | ![image](https://github.com/user-attachments/assets/6ec51438-9b60-460f-a67b-d9a9d5532552)      | NA     |
 
  
