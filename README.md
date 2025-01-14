@@ -104,6 +104,8 @@ The website serves as an educational tool aimed at:
 
 - Single-page layout showcasing the homepage with section scroll interactions for:
   - British Values
+
+    
 | Wireframe                                                                                       | Actual |
 |-------------------------------------------------------------------------------------------------|--------|
 | ![image](https://github.com/user-attachments/assets/cd2d5833-99b4-4f88-876a-31267c741014)      | NA     |
