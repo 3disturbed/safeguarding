@@ -216,6 +216,76 @@ The website serves as an educational tool aimed at:
 - **HTML**: Passed W3C Validation.
 - **CSS**: Passed W3C Validation.
 
+**Manual Testing**
+
+1. **Verify Page Load**
+Open the website in multiple browsers (e.g., Chrome, Firefox, Edge, Safari).
+Confirm that all pages load without errors or delays.
+Ensure the website layout is consistent across browsers.
+
+3. **Test Navigation**
+Click each navigation link and verify that it directs to the correct page.
+Check that internal and external links work as expected.
+Confirm that the "back" and "forward" browser buttons function properly.
+
+5. **Check Responsiveness**
+Open the website on various devices (e.g., desktop, tablet, smartphone).
+Resize the browser window to simulate different screen sizes.
+Verify that all elements adjust correctly and the content remains readable.
+
+7. **Validate Forms (Not applicable)**
+Submit forms with valid data to ensure they work as intended.
+Test error messages by submitting incomplete or invalid data.
+Verify that required fields are properly marked and enforced.
+
+9. **Inspect Visual Design**
+Confirm that all images load correctly and are of acceptable quality.
+Check the alignment and spacing of text, buttons, and other elements.
+Verify that colors and fonts match the design specifications.
+
+11. **Test Interactive Elements**
+Hover over buttons and links to ensure hover states work as designed.
+Check that dropdown menus, carousels, and other interactive elements function properly.
+
+13. **Verify Content Accuracy**
+Proofread text for typos, grammatical errors, and formatting issues.
+Confirm that all media (e.g., images, videos) appear as intended.
+Ensure that any placeholder text or images have been replaced with final content.
+
+15. **Check Performance**
+Monitor the website's loading time.
+Verify that the website works smoothly under normal usage.
+
+17. **Test Accessibility**
+Use keyboard navigation to access all features of the website.
+Confirm that all images have alt attributes.
+Ensure the website adheres to accessibility guidelines (e.g., WCAG).
+
+19. **Test Footer and Contact Information**
+Verify that contact information (e.g., email, phone, address) is accurate.
+Check that social media links direct to the correct profiles.
+
+21. **Perform Cross-Browser Testing**
+Open the website in both modern and older versions of popular browsers.
+Confirm that functionality and design are consistent.
+
+23. **Test Error Pages**
+Intentionally navigate to a non-existent URL on the website to check the 404 error page.
+Ensure error messages are user-friendly and informative.
+
+25. **Verify SSL/TLS Certificate**
+Confirm that the website uses HTTPS.
+Check for the padlock symbol in the browser’s address bar.
+
+27. **Check for SEO Compliance**
+Verify that each page has a unique and descriptive title tag.
+Check that meta descriptions are present and relevant.
+Ensure there are no broken links.
+
+29. **Record Findings**
+Document any issues encountered during testing.
+Retest resolved issues to confirm fixes.
+
 ### **Lighthouse Scores**
 
 - Performance, accessibility, best practices, and SEO optimized.
